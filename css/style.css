@@ -53,9 +53,10 @@ body {
   background: linear-gradient(180deg, #0d2732 0%, #9dd1f7 100%);
 }
 .body__container {
-  width: var(--screen-mobile-width);
-  height: 90%;
-  margin-top: 1rem;
+  /* width: var(--screen-mobile-width); */
+  width: 95%;
+  height: 95%;
+  /* margin-top: 1rem; */
   background: #e3e3e3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 

@@ -18,6 +18,7 @@ const result = document.getElementById("result-box");
 
 //VARIABLES
 let number1, number2;
+let finalResult;
 
 // debugger;
 
@@ -87,7 +88,10 @@ function multiplicarValues(string1, string2) {
 
 //THIS SHOULD SHOW THE FINAL FIGURE. TBD
 function showResults() {
-  return (result.textContent = "placeholder");
+  //finalResult = container of what will printed
+  finalResult = "placeholder";
+  
+  return finalResult;
 }
 
 //EVENT LISTENERS
